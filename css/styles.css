@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    font-size: 14px;
+    background-color: #a9d6e5;
+}
+
+.card {
+    width: 16rem;
+    margin: 2rem 0;
+    
+}
+
+ img{
+    max-width: 100%;
+    background-image: url("./blob.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#listado {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.pokeSearch{
+    display: flex;
+}
+
+header{
+    text-align: center;
+    margin-top: 1rem;
+}
